@@ -52,15 +52,15 @@ This program implements a simple Unix-like shell with features such as:
 
 ### Error Handling
 
-    The shell handles errors gracefully by displaying the message **"Invalid Command"** in the following scenarios:
-    1. Invalid commands that do not exist.
-    2. Errors in using `cd`:
-    - Non-existent directories.
-    - Incorrect usage of `cd -` without a previous directory.
-    3. Incorrect or unsupported piping.
-    4. Syntax errors in command input.
+The shell handles errors gracefully by displaying the message **"Invalid Command"** in the following scenarios:
+1. Invalid commands that do not exist.
+2. Errors in using `cd`:
+- Non-existent directories.
+- Incorrect usage of `cd -` without a previous directory.
+3. Incorrect or unsupported piping.
+4. Syntax errors in command input.
 
-    Example of invalid command:
+Example of invalid command:
     ```bash
     MTL458 > invalidCommand
     Invalid Command
