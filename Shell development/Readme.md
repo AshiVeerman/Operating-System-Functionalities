@@ -60,7 +60,7 @@ The shell handles errors gracefully by displaying the message **"Invalid Command
 3. Incorrect or unsupported piping.
 4. Syntax errors in command input.
 
-Example of invalid command:
+	Example of invalid command:
     ```bash
     MTL458 > invalidCommand
     Invalid Command
@@ -105,5 +105,5 @@ Example of invalid command:
 6. **Environment Variable Expansion**:
    - Expand commands containing variables (e.g., `$HOME`, `$PATH`).
 
-7. **Job Control**:
+7. **Job Control**:i
    - Add support for managing jobs with `jobs`, `fg`, and `bg`.
